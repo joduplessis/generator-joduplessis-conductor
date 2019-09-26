@@ -1,0 +1,35 @@
+{
+  "name": "conductor-boilerplate",
+  "version": "0.1.0",
+  "description": "Example project for Conductor",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack -w --config webpack.config.js",
+    "serve": "webpack-dev-server --config webpack.config.js --hot --inline",
+    "dev": "npm run watch | npm run serve"
+  },
+  "author": "Jo du Plessis",
+  "license": "MIT",
+  "url": "",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "@joduplessis/conductor": "0.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.4.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.4.2",
+    "babel-loader": "^8.0.2",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack": "^4.18.0",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.14",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0"
+  }
+}
