@@ -1,6 +1,6 @@
 {
   "name": "conductor-boilerplate",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "Example project for Conductor",
   "main": "index.js",
   "scripts": {
