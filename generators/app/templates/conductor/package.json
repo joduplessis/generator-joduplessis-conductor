@@ -14,7 +14,7 @@
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "@joduplessis/conductor": "0.0.1"
+    "@joduplessis/conductor": "0.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.1.0",
